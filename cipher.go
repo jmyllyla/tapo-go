@@ -3,6 +3,7 @@ package tapo
 import (
 	"crypto/aes"
 	"crypto/cipher"
+	"errors"
 )
 
 type Cipher struct {
