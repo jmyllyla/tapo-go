@@ -1,4 +1,4 @@
-module github.com/j-iot/tapo-go
+module github.com/jmyllyla/tapo-go
 
 go 1.18
 
