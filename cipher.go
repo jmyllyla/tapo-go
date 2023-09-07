@@ -17,7 +17,7 @@ func Pad(buf []byte, size int) ([]byte, error) {
 	padded := make([]byte, bufLen+padLen)
 	copy(padded, buf)
 	for i := 0; i < padLen; i++ {
-		padded[bufLen+i] = byte(padLen)
+		padded[bufLen+i] = byte(0)
 	}
 	return padded, nil
 }
